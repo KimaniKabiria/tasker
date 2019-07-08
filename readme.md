@@ -2,7 +2,8 @@
 
 This is a Laravel based task scheduling web app.
 
-It uses:
-    Laravel framework
-    Sqlite Database
-    Vue Js
+# App Technologies
+<ul> It uses:
+    <li> Laravel framework </li>
+    <li> Sqlite Database </li>
+    <li> Vue Js </li>
