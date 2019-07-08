@@ -11,8 +11,8 @@ The App is supported by the following Technologies
     <li> Vue Js </li>
 </ul>
 
-#Demo Account
+# Demo Account
 
-Email: demo@example.com
-password: demo1234
-username: demo
+<p>Email: demo@example.com</p><br>
+<p>Password: demo1234</p><br>
+<p>Username: demo</p><br>
