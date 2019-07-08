@@ -27,4 +27,8 @@ class TasksController extends Controller
 
         return redirect('/home/'.auth()->user()->id);
     }
+
+    public function show(\App\Tasks $tasks){
+        return view('tasks.show', compact('tasks'));
+    }
 }

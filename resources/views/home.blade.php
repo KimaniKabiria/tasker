@@ -9,7 +9,9 @@
             <div class="col-4 pt-2">
                 <div class="card" style="width: 18rem;">
                     <div class="col-md-12" style="text-align:center;">
-                        <h4 class="pt-3">{{ $tasks->title}}</h4>
+                        <a href="/tasks/{{$tasks->id}}">
+                            <h4 class="pt-3">{{ $tasks->title}}</h4>
+                        </a>
                         <hr>
 
                         <div class="row" style="padding-left:30px">
