@@ -10,3 +10,9 @@ The App is supported by the following Technologies
     <li> Sqlite Database </li>
     <li> Vue Js </li>
 </ul>
+
+#Demo Account
+
+Email: demo@example.com
+password: demo1234
+username: demo
