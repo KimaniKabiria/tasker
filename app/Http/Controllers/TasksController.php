@@ -25,6 +25,6 @@ class TasksController extends Controller
 
         auth()->user()->tasks()->create($data);
 
-        return redirect('/home');
+        return redirect('/home/'.auth()->user()->id);
     }
 }

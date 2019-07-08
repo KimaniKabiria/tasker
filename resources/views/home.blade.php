@@ -2,31 +2,11 @@
 
 @section('content')
 <div class="container">
-
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" href="#"><h3>Dashboard</h3></a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><h3>Tasks </h3></a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="/tasks/create">Add New Task</a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><h3>Issues</h3></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><h3>My Projects</h3></a>
-        </li>
-    </ul>
-    <hr>
-
     <div class="col-12">
         <h3>My Tasks</h3>
-        <div class="card-columns">
+        <div class="row">
             @foreach ($user->tasks as $tasks)
-            <div class="col-4">
+            <div class="col-4 pt-2">
                 <div class="card" style="width: 18rem;">
                     <div class="col-md-12" style="text-align:center;">
                         <h4 class="pt-3">{{ $tasks->title}}</h4>
